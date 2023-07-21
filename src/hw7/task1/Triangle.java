@@ -1,6 +1,6 @@
 package hw7.task1;
 
-public class Triangle extends Figure {
+public class Triangle implements Figure {
     private int a; //сторона треугольника
     private int b; //сторона треугольника
     private int c; //сторона треугольника

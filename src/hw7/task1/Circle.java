@@ -1,6 +1,6 @@
 package hw7.task1;
 
-public class Circle extends Figure {
+public class Circle implements Figure {
     private int r; //радиус круга
 
     public Circle(int r) {

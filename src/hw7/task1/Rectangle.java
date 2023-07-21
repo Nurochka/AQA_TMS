@@ -1,6 +1,6 @@
 package hw7.task1;
 
-public class Rectangle extends Figure {
+public class Rectangle implements Figure {
     private int a; //сторона прямоугольника
     private int b; //сторона прямоугольника
 
