@@ -1,8 +1,6 @@
 package hw10;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 
 public class Brackets {
@@ -48,7 +46,7 @@ public class Brackets {
                 arr[i] = k;
             }
             for (int i = 0; i <= arr.length - 2; i = i + 2) {
-                if (arr[i]!=arr[i+1]){
+                if (arr[i] != arr[i + 1]) {
                     result = false;
                     break;
                 }
@@ -57,4 +55,4 @@ public class Brackets {
         return result;
     }
 
-}
+    }
